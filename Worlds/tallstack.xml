@@ -1,0 +1,4415 @@
+<world>
+  <materials>
+    <material name="red"               density="1" friction="0.9" restitution="0.4" cr="1.0" cg="0.0" cb="0.0" />
+    <material name="green"            density="1" friction="0.9" restitution="0.4" cr="0.0" cg="1.0" cb="0.0" />
+    <material name="blue"              density="1" friction="0.9" restitution="0.4" cr="0.0" cg="0.0" cb="1.0" />
+    <material name="yellow"          density="1" friction="0.9" restitution="0.4" cr="1.0" cg="1.0" cb="0.0" />
+    <material name="cyan"              density="1" friction="0.9" restitution="0.4" cr="0.0" cg="1.0" cb="1.0" />
+    <material name="magenta"        density="1" friction="0.9" restitution="0.4" cr="1.0" cg="0.0" cb="1.0" />
+    <material name="red plastic"    density="1" friction="0.6" restitution="0.9" cr="0.9" cg="0.5" cb="0.6" />
+    <material name="green plastic" density="1" friction="0.6" restitution="0.9" cr="0.5" cg="0.9" cb="0.6" />
+    <material name="blue plastic"  density="1" friction="0.6" restitution="0.9" cr="0.5" cg="0.6" cb="0.9" />
+    <material name="white"            density="1" friction="0.9" restitution="0.4" cr="1.0" cg="1.0" cb="1.0" />
+    <material name="gray"              density="1" friction="0.9" restitution="0.9" cr="0.5" cg="0.5" cb="0.5" />
+    <material name="black"            density="1" friction="0.9" restitution="0.4" cr="0.0" cg="0.0" cb="0.0" />
+    <material name="dirt"               density="0" friction="0.9" restitution="0.4" cr="0.8" cg="0.6" cb="0.4" />
+  </materials>
+  <bodies>
+    <ground>
+      <bodymaterial name="dirt" />
+    </ground>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="1" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="3" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="5" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="7" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="9" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="11" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="13" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="15" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="17" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="19" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="21" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="23" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="25" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="27" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="29" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="1" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="3" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="5" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="7" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="9" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="11" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="13" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="15" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="17" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="19" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="21" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="23" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="25" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="27" z="0" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="29" z="0" />
+      <bodymaterial name="red" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="1" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="3" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="5" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="7" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="9" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="11" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="13" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="15" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="17" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="19" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="21" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="23" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="25" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="27" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="29" z="0" />
+      <bodymaterial name="green" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="1" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="3" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="5" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="7" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="9" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="11" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="13" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="15" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="17" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="19" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="21" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="23" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="25" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="27" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="29" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="1" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="3" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="5" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="7" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="9" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="11" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="13" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="15" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="17" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="19" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="21" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="23" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="25" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="27" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="29" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="1" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="3" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="5" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="7" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="9" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="11" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="13" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="15" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="17" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="19" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="21" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="23" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="25" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="27" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="29" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="1" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="3" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="5" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="7" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="9" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="11" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="13" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="15" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="17" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="19" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="21" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="23" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="25" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="27" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="29" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="1" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="3" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="5" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="7" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="9" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="11" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="13" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="15" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="17" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="19" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="21" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="23" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="25" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="27" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="29" z="0" />
+      <bodymaterial name="red plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="1" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="3" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="5" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="7" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="9" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="11" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="13" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="15" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="17" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="19" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="21" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="23" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="25" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="27" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="29" z="0" />
+      <bodymaterial name="green plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="1" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="3" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="5" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="7" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="9" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="11" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="13" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="15" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="17" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="19" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="21" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="23" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="25" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="27" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="29" z="0" />
+      <bodymaterial name="blue plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="1" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="3" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="5" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="7" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="9" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="11" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="13" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="15" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="17" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="19" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="21" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="23" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="25" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="27" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="29" z="0" />
+      <bodymaterial name="white" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="1" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="3" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="5" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="7" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="9" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="11" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="13" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="15" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="17" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="19" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="21" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="23" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="25" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="27" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="29" z="0" />
+      <bodymaterial name="black" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="1" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="3" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="5" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="7" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="9" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="11" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="13" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="15" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="17" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="19" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="21" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="23" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="25" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="27" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="29" z="5" />
+      <bodymaterial name="gray" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="1" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="3" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="5" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="7" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="9" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="11" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="13" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="15" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="17" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="19" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="21" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="23" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="25" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="27" z="5" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="29" z="5" />
+      <bodymaterial name="red" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="1" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="3" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="5" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="7" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="9" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="11" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="13" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="15" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="17" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="19" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="21" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="23" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="25" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="27" z="5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="29" z="5" />
+      <bodymaterial name="green" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="1" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="3" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="5" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="7" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="9" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="11" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="13" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="15" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="17" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="19" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="21" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="23" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="25" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="27" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="29" z="5" />
+      <bodymaterial name="blue" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="1" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="3" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="5" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="7" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="9" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="11" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="13" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="15" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="17" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="19" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="21" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="23" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="25" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="27" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="29" z="5" />
+      <bodymaterial name="yellow" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="1" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="3" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="5" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="7" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="9" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="11" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="13" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="15" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="17" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="19" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="21" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="23" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="25" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="27" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="29" z="5" />
+      <bodymaterial name="cyan" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="1" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="3" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="5" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="7" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="9" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="11" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="13" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="15" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="17" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="19" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="21" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="23" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="25" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="27" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="29" z="5" />
+      <bodymaterial name="magenta" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="1" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="3" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="5" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="7" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="9" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="11" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="13" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="15" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="17" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="19" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="21" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="23" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="25" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="27" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="29" z="5" />
+      <bodymaterial name="red plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="1" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="3" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="5" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="7" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="9" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="11" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="13" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="15" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="17" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="19" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="21" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="23" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="25" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="27" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="29" z="5" />
+      <bodymaterial name="green plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="1" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="3" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="5" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="7" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="9" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="11" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="13" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="15" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="17" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="19" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="21" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="23" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="25" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="27" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="29" z="5" />
+      <bodymaterial name="blue plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="1" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="3" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="5" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="7" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="9" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="11" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="13" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="15" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="17" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="19" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="21" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="23" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="25" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="27" z="5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="29" z="5" />
+      <bodymaterial name="white" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="1" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="3" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="5" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="7" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="9" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="11" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="13" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="15" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="17" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="19" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="21" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="23" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="25" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="27" z="5" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="29" z="5" />
+      <bodymaterial name="black" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="1" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="3" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="5" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="7" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="9" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="11" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="13" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="15" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="17" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="19" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="21" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="23" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="25" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="27" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="29" z="10" />
+      <bodymaterial name="gray" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="1" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="3" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="5" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="7" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="9" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="11" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="13" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="15" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="17" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="19" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="21" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="23" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="25" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="27" z="10" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="29" z="10" />
+      <bodymaterial name="red" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="1" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="3" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="5" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="7" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="9" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="11" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="13" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="15" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="17" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="19" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="21" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="23" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="25" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="27" z="10" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="29" z="10" />
+      <bodymaterial name="green" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="1" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="3" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="5" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="7" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="9" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="11" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="13" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="15" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="17" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="19" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="21" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="23" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="25" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="27" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="29" z="10" />
+      <bodymaterial name="blue" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="1" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="3" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="5" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="7" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="9" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="11" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="13" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="15" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="17" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="19" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="21" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="23" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="25" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="27" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="29" z="10" />
+      <bodymaterial name="yellow" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="1" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="3" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="5" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="7" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="9" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="11" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="13" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="15" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="17" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="19" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="21" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="23" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="25" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="27" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="29" z="10" />
+      <bodymaterial name="cyan" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="1" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="3" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="5" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="7" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="9" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="11" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="13" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="15" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="17" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="19" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="21" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="23" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="25" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="27" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="29" z="10" />
+      <bodymaterial name="magenta" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="1" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="3" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="5" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="7" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="9" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="11" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="13" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="15" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="17" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="19" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="21" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="23" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="25" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="27" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="29" z="10" />
+      <bodymaterial name="red plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="1" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="3" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="5" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="7" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="9" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="11" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="13" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="15" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="17" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="19" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="21" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="23" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="25" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="27" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="29" z="10" />
+      <bodymaterial name="green plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="1" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="3" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="5" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="7" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="9" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="11" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="13" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="15" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="17" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="19" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="21" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="23" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="25" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="27" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="29" z="10" />
+      <bodymaterial name="blue plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="1" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="3" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="5" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="7" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="9" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="11" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="13" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="15" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="17" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="19" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="21" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="23" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="25" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="27" z="10" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="29" z="10" />
+      <bodymaterial name="white" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="1" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="3" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="5" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="7" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="9" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="11" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="13" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="15" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="17" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="19" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="21" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="23" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="25" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="27" z="10" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="29" z="10" />
+      <bodymaterial name="black" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="1" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="3" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="5" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="7" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="9" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="11" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="13" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="15" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="17" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="19" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="21" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="23" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="25" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="27" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="29" z="15" />
+      <bodymaterial name="gray" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="1" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="3" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="5" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="7" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="9" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="11" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="13" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="15" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="17" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="19" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="21" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="23" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="25" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="27" z="15" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="29" z="15" />
+      <bodymaterial name="red" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="1" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="3" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="5" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="7" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="9" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="11" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="13" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="15" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="17" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="19" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="21" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="23" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="25" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="27" z="15" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="29" z="15" />
+      <bodymaterial name="green" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="1" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="3" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="5" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="7" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="9" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="11" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="13" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="15" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="17" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="19" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="21" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="23" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="25" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="27" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="29" z="15" />
+      <bodymaterial name="blue" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="1" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="3" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="5" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="7" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="9" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="11" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="13" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="15" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="17" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="19" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="21" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="23" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="25" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="27" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="29" z="15" />
+      <bodymaterial name="yellow" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="1" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="3" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="5" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="7" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="9" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="11" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="13" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="15" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="17" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="19" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="21" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="23" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="25" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="27" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="29" z="15" />
+      <bodymaterial name="cyan" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="1" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="3" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="5" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="7" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="9" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="11" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="13" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="15" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="17" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="19" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="21" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="23" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="25" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="27" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="29" z="15" />
+      <bodymaterial name="magenta" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="1" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="3" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="5" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="7" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="9" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="11" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="13" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="15" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="17" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="19" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="21" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="23" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="25" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="27" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="29" z="15" />
+      <bodymaterial name="red plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="1" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="3" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="5" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="7" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="9" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="11" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="13" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="15" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="17" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="19" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="21" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="23" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="25" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="27" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="29" z="15" />
+      <bodymaterial name="green plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="1" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="3" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="5" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="7" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="9" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="11" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="13" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="15" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="17" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="19" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="21" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="23" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="25" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="27" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="29" z="15" />
+      <bodymaterial name="blue plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="1" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="3" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="5" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="7" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="9" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="11" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="13" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="15" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="17" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="19" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="21" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="23" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="25" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="27" z="15" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="29" z="15" />
+      <bodymaterial name="white" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="1" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="3" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="5" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="7" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="9" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="11" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="13" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="15" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="17" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="19" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="21" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="23" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="25" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="27" z="15" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="29" z="15" />
+      <bodymaterial name="black" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="1" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="3" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="5" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="7" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="9" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="11" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="13" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="15" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="17" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="19" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="21" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="23" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="25" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="27" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="29" z="20" />
+      <bodymaterial name="gray" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="1" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="3" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="5" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="7" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="9" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="11" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="13" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="15" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="17" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="19" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="21" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="23" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="25" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="27" z="20" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="29" z="20" />
+      <bodymaterial name="red" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="1" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="3" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="5" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="7" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="9" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="11" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="13" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="15" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="17" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="19" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="21" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="23" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="25" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="27" z="20" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="29" z="20" />
+      <bodymaterial name="green" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="1" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="3" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="5" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="7" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="9" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="11" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="13" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="15" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="17" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="19" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="21" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="23" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="25" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="27" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="29" z="20" />
+      <bodymaterial name="blue" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="1" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="3" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="5" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="7" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="9" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="11" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="13" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="15" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="17" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="19" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="21" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="23" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="25" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="27" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="29" z="20" />
+      <bodymaterial name="yellow" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="1" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="3" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="5" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="7" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="9" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="11" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="13" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="15" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="17" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="19" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="21" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="23" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="25" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="27" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="29" z="20" />
+      <bodymaterial name="cyan" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="1" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="3" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="5" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="7" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="9" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="11" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="13" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="15" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="17" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="19" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="21" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="23" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="25" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="27" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="29" z="20" />
+      <bodymaterial name="magenta" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="1" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="3" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="5" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="7" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="9" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="11" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="13" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="15" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="17" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="19" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="21" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="23" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="25" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="27" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="29" z="20" />
+      <bodymaterial name="red plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="1" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="3" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="5" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="7" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="9" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="11" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="13" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="15" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="17" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="19" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="21" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="23" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="25" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="27" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="29" z="20" />
+      <bodymaterial name="green plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="1" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="3" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="5" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="7" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="9" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="11" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="13" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="15" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="17" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="19" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="21" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="23" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="25" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="27" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="29" z="20" />
+      <bodymaterial name="blue plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="1" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="3" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="5" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="7" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="9" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="11" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="13" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="15" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="17" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="19" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="21" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="23" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="25" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="27" z="20" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="29" z="20" />
+      <bodymaterial name="white" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="1" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="3" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="5" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="7" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="9" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="11" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="13" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="15" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="17" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="19" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="21" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="23" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="25" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="27" z="20" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="29" z="20" />
+      <bodymaterial name="black" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="1" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="3" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="5" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="7" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="9" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="11" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="13" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="15" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="17" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="19" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="21" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="23" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="25" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="27" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="0" y="29" z="25" />
+      <bodymaterial name="gray" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="1" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="3" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="5" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="7" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="9" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="11" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="13" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="15" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="17" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="19" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="21" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="23" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="25" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="27" z="25" />
+      <bodymaterial name="red" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="5" y="29" z="25" />
+      <bodymaterial name="red" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="1" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="3" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="5" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="7" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="9" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="11" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="13" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="15" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="17" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="19" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="21" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="23" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="25" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="27" z="25" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-5" y="29" z="25" />
+      <bodymaterial name="green" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="1" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="3" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="5" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="7" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="9" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="11" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="13" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="15" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="17" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="19" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="21" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="23" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="25" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="27" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-10" y="29" z="25" />
+      <bodymaterial name="blue" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="1" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="3" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="5" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="7" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="9" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="11" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="13" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="15" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="17" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="19" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="21" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="23" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="25" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="27" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="10" y="29" z="25" />
+      <bodymaterial name="yellow" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="1" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="3" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="5" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="7" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="9" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="11" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="13" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="15" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="17" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="19" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="21" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="23" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="25" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="27" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="15" y="29" z="25" />
+      <bodymaterial name="cyan" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="1" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="3" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="5" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="7" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="9" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="11" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="13" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="15" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="17" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="19" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="21" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="23" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="25" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="27" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-15" y="29" z="25" />
+      <bodymaterial name="magenta" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="1" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="3" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="5" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="7" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="9" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="11" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="13" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="15" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="17" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="19" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="21" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="23" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="25" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="27" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-20" y="29" z="25" />
+      <bodymaterial name="red plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="1" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="3" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="5" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="7" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="9" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="11" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="13" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="15" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="17" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="19" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="21" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="23" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="25" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="27" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="20" y="29" z="25" />
+      <bodymaterial name="green plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="1" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="3" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="5" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="7" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="9" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="11" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="13" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="15" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="17" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="19" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="21" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="23" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="25" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="27" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="25" y="29" z="25" />
+      <bodymaterial name="blue plastic" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="1" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="3" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="5" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="7" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="9" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="11" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="13" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="15" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="17" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="19" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="21" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="23" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="25" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="27" z="25" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-25" y="29" z="25" />
+      <bodymaterial name="white" />
+    </box>
+
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="1" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="3" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="5" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="7" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="9" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="11" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="13" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="15" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="17" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="19" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="21" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="23" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="25" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="27" z="25" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="30" y="29" z="25" />
+      <bodymaterial name="black" />
+    </box>
+
+  </bodies>
+</world>

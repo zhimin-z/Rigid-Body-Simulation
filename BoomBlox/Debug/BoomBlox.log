@@ -1,0 +1,39 @@
+﻿Build started 3/19/2012 ♥汐 PM 1:23:05.
+     1>Project "C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\BoomBlox\BoomBlox.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\BoomBlox.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../OgreMath /I../CppUnitLite /I../tinyxml /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt World.cpp
+         World.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\Debug\BoomBlox.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BoomBlox.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\Debug\BoomBlox.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\Debug\BoomBlox.lib" /MACHINE:X86 Debug\BoomBlox.exe.embed.manifest.res
+         Debug\Benchmark.obj
+         Debug\BoomBlox.obj
+         Debug\Box.obj
+         Debug\Ground.obj
+         Debug\Intersection.obj
+         Debug\Material.obj
+         Debug\RigidBody.obj
+         Debug\Sphere.obj
+         Debug\Tests.obj
+         Debug\World.obj
+         Debug\WorldLoader.obj
+         "C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\Debug\CppUnitLite.lib"
+         "C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\Debug\OgreMath.lib"
+         "C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\tinyxml\Debug_STL\tinyxmld_STL.lib"
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BoomBlox.exe.embed.manifest" /manifest Debug\BoomBlox.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         BoomBlox.vcxproj -> C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\Debug\BoomBlox.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\BoomBlox.unsuccessfulbuild".
+         Touching "Debug\BoomBlox.lastbuildstate".
+     1>Done Building Project "C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\BoomBlox\BoomBlox.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.45

@@ -1,0 +1,173 @@
+<world>
+  <materials>
+    <material name="gray"         density="1" friction="0.9" restitution="0.9" cr="0.5" cg="0.5" cb="0.5" />
+    <material name="dirt"          density="0" friction="0.9" restitution="0.4" cr="0.8" cg="0.6" cb="0.4" />
+    <material name="white"       density="1" friction="0.9" restitution="0.4" cr="1.0" cg="1.0" cb="1.0" />
+    <material name="black"       density="1" friction="0.9" restitution="0.4" cr="0.0" cg="0.0" cb="0.0" />
+    <material name="red"          density="1" friction="0.9" restitution="0.4" cr="1.0" cg="0.0" cb="0.0" />
+    <material name="green"       density="1" friction="0.9" restitution="0.4" cr="0.0" cg="1.0" cb="0.0" />
+    <material name="blue"         density="1" friction="0.9" restitution="0.4" cr="0.0" cg="0.0" cb="1.0" />
+    <material name="yellow"     density="1" friction="0.9" restitution="0.4" cr="1.0" cg="1.0" cb="0.0" />
+    <material name="cyan"         density="1" friction="0.9" restitution="0.4" cr="0.0" cg="1.0" cb="1.0" />
+    <material name="magenta"    density="1" friction="0.9" restitution="0.4" cr="1.0" cg="0.0" cb="1.0" />
+  </materials>
+  <bodies>
+    <ground>
+      <bodymaterial name="dirt" />
+    </ground>
+    
+    <box hx="0.5" hy="4" hz="6">
+      <pos x="-31" y="4" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="0.5" hy="3.75" hz="5">
+      <pos x="-25.5" y="3.75" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="0.5" hy="3.5" hz="4">
+      <pos x="-20.5" y="3.5" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="0.5" hy="3.25" hz="3">
+      <pos x="-16" y="3.25" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="0.5" hy="3" hz="2.5">
+      <pos x="-12" y="3" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="0.5" hy="2.75" hz="2">
+      <pos x="-8.5" y="2.75" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="0.5" hy="2.5" hz="1.5">
+      <pos x="-5.5" y="2.5" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="0.5" hy="2.25" hz="1.25">
+      <pos x="-3" y="2.25" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="0.5" hy="2" hz="1">
+      <pos x="-1" y="2" z="0" />
+      <bodymaterial name="red" />
+    </box>
+
+    <box hx="0.5" hy="4" hz="6">
+      <pos x="31" y="4" z="0" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="0.5" hy="3.75" hz="5">
+      <pos x="25.5" y="3.75" z="0" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="0.5" hy="3.5" hz="4">
+      <pos x="20.5" y="3.5" z="0" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="0.5" hy="3.25" hz="3">
+      <pos x="16" y="3.25" z="0" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="0.5" hy="3" hz="2.5">
+      <pos x="12" y="3" z="0" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="0.5" hy="2.75" hz="2">
+      <pos x="8.5" y="2.75" z="0" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="0.5" hy="2.5" hz="1.5">
+      <pos x="5.5" y="2.5" z="0" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="0.5" hy="2.25" hz="1.25">
+      <pos x="3" y="2.25" z="0" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="0.5" hy="2" hz="1">
+      <pos x="1" y="2" z="0" />
+      <bodymaterial name="red" />
+    </box>
+
+    <box hx="6" hy="4" hz="0.5">
+      <pos x="0" y="4" z="31" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="5" hy="3.75" hz="0.5">
+      <pos x="0" y="3.75" z="25.5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="4" hy="3.5" hz="0.5">
+      <pos x="0" y="3.5" z="20.5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="3" hy="3.25" hz="0.5">
+      <pos x="0" y="3.25" z="16" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="2.5" hy="3" hz="0.5">
+      <pos x="0" y="3" z="12" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="2" hy="2.75" hz="0.5">
+      <pos x="0" y="2.75" z="8.5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1.5" hy="2.5" hz="0.5">
+      <pos x="0" y="2.5" z="5.5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1.25" hy="2.25" hz="0.5">
+      <pos x="0" y="2.25" z="3" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="2" hz="0.5">
+      <pos x="0" y="2" z="1" />
+      <bodymaterial name="red" />
+    </box>
+
+    <box hx="6" hy="4" hz="0.5">
+      <pos x="0" y="4" z="-31" />
+      <bodymaterial name="black" />
+    </box>
+    <box hx="5" hy="3.75" hz="0.5">
+      <pos x="0" y="3.75" z="-25.5" />
+      <bodymaterial name="gray" />
+    </box>
+    <box hx="4" hy="3.5" hz="0.5">
+      <pos x="0" y="3.5" z="-20.5" />
+      <bodymaterial name="white" />
+    </box>
+    <box hx="3" hy="3.25" hz="0.5">
+      <pos x="0" y="3.25" z="-16" />
+      <bodymaterial name="magenta" />
+    </box>
+    <box hx="2.5" hy="3" hz="0.5">
+      <pos x="0" y="3" z="-12" />
+      <bodymaterial name="blue" />
+    </box>
+    <box hx="2" hy="2.75" hz="0.5">
+      <pos x="0" y="2.75" z="-8.5" />
+      <bodymaterial name="cyan" />
+    </box>
+    <box hx="1.5" hy="2.5" hz="0.5">
+      <pos x="0" y="2.5" z="-5.5" />
+      <bodymaterial name="green" />
+    </box>
+    <box hx="1.25" hy="2.25" hz="0.5">
+      <pos x="0" y="2.25" z="-3" />
+      <bodymaterial name="yellow" />
+    </box>
+    <box hx="1" hy="2" hz="0.5">
+      <pos x="0" y="2" z="-1" />
+      <bodymaterial name="red" />
+    </box>
+    
+    <sphere r="2">
+      <pos x="0" y="10" z="0" />
+      <vel x="0" y="-5" z="0" />
+      <bodymaterial name="gray" />
+    </sphere>
+  </bodies>
+</world>

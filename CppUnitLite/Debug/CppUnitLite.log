@@ -1,0 +1,17 @@
+﻿Build started 3/19/2012 ♥汐 PM 1:23:02.
+     1>Project "C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\CppUnitLite\CppUnitLite.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\CppUnitLite.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         CppUnitLite.vcxproj -> C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\Debug\CppUnitLite.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\CppUnitLite.unsuccessfulbuild".
+         Touching "Debug\CppUnitLite.lastbuildstate".
+     1>Done Building Project "C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\CppUnitLite\CppUnitLite.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.04

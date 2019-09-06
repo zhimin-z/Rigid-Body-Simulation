@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoomBlox", "BoomBlox\BoomBlox.vcxproj", "{EA5E8647-6290-4690-87F3-F093A0BF7C0F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OgreMath", "OgreMath\OgreMath.vcxproj", "{D94AE0EF-C734-4419-A870-E7A78149593D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppUnitLite", "CppUnitLite\CppUnitLite.vcxproj", "{9E39E82F-225C-4582-B4C6-21C5F72270B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxmlSTL", "tinyxml\tinyxmlSTL.vcxproj", "{A3A84737-5017-4577-B8A2-79429A25B8B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Worlds", "Worlds\Worlds.vcxproj", "{5D748746-D471-45D7-BF49-42D28E82D551}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA5E8647-6290-4690-87F3-F093A0BF7C0F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA5E8647-6290-4690-87F3-F093A0BF7C0F}.Debug|Win32.Build.0 = Debug|Win32
+		{EA5E8647-6290-4690-87F3-F093A0BF7C0F}.Release|Win32.ActiveCfg = Release|Win32
+		{EA5E8647-6290-4690-87F3-F093A0BF7C0F}.Release|Win32.Build.0 = Release|Win32
+		{D94AE0EF-C734-4419-A870-E7A78149593D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D94AE0EF-C734-4419-A870-E7A78149593D}.Debug|Win32.Build.0 = Debug|Win32
+		{D94AE0EF-C734-4419-A870-E7A78149593D}.Release|Win32.ActiveCfg = Release|Win32
+		{D94AE0EF-C734-4419-A870-E7A78149593D}.Release|Win32.Build.0 = Release|Win32
+		{9E39E82F-225C-4582-B4C6-21C5F72270B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E39E82F-225C-4582-B4C6-21C5F72270B2}.Debug|Win32.Build.0 = Debug|Win32
+		{9E39E82F-225C-4582-B4C6-21C5F72270B2}.Release|Win32.ActiveCfg = Release|Win32
+		{9E39E82F-225C-4582-B4C6-21C5F72270B2}.Release|Win32.Build.0 = Release|Win32
+		{A3A84737-5017-4577-B8A2-79429A25B8B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3A84737-5017-4577-B8A2-79429A25B8B6}.Debug|Win32.Build.0 = Debug|Win32
+		{A3A84737-5017-4577-B8A2-79429A25B8B6}.Release|Win32.ActiveCfg = Release|Win32
+		{A3A84737-5017-4577-B8A2-79429A25B8B6}.Release|Win32.Build.0 = Release|Win32
+		{5D748746-D471-45D7-BF49-42D28E82D551}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D748746-D471-45D7-BF49-42D28E82D551}.Debug|Win32.Build.0 = Debug|Win32
+		{5D748746-D471-45D7-BF49-42D28E82D551}.Release|Win32.ActiveCfg = Release|Win32
+		{5D748746-D471-45D7-BF49-42D28E82D551}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

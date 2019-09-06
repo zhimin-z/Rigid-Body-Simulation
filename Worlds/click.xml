@@ -1,0 +1,48 @@
+<world>
+  <materials>
+    <material name="astroglide" density="1" friction="0.0" restitution="1.0" cr="0.2" cg="0.8" cb="0.4" />
+    <material name="dirt"       density="0" friction="0.9" restitution="0.4" cr="0.8" cg="0.6" cb="0.4" />
+  </materials>
+  <bodies>
+    <ground>
+      <bodymaterial name="dirt" />
+    </ground>
+    <sphere r="1">
+      <pos x="0" y="1" z="0" />
+      <bodymaterial name="astroglide" />
+    </sphere>
+    <sphere r="1">
+      <pos x="2" y="1" z="0" />
+      <bodymaterial name="astroglide" />
+    </sphere>
+    <sphere r="1">
+      <pos x="4" y="1" z="0" />
+      <bodymaterial name="astroglide" />
+    </sphere>
+    <sphere r="1">
+      <pos x="6" y="1" z="0" />
+      <bodymaterial name="astroglide" />
+    </sphere>
+    <sphere r="1">
+      <pos x="8" y="1" z="0" />
+      <bodymaterial name="astroglide" />
+    </sphere>
+    
+    <sphere r="1">
+      <pos x="-8" y="1" z="0" />
+      <vel x="2" y="0" z="0" />
+      <bodymaterial name="astroglide" />
+    </sphere>
+    <sphere r="1">
+      <pos x="-16" y="1" z="0" />
+      <vel x="2" y="0" z="0" />
+      <bodymaterial name="astroglide" />
+    </sphere>
+    <sphere r="1">
+      <pos x="-24" y="1" z="0" />
+      <vel x="2" y="0" z="0" />
+      <bodymaterial name="astroglide" />
+    </sphere>
+
+  </bodies>
+</world>

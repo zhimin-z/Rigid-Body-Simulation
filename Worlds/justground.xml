@@ -1,0 +1,10 @@
+<world>
+  <materials>
+    <material name="dirt"         density="0" friction="0.9" restitution="0.4" cr="0.8" cg="0.6" cb="0.4" />
+  </materials>
+  <bodies>
+    <ground>
+      <bodymaterial name="dirt" />
+    </ground>
+  </bodies>
+</world>

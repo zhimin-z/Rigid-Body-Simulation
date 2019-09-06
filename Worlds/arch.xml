@@ -1,0 +1,52 @@
+<world>
+  <materials>
+    <material name="dark gray" density="1" friction="0.9" restitution="0.9" cr="0.2" cg="0.2" cb="0.2" />
+    <material name="light gray" density="1" friction="0.9" restitution="0.9" cr="0.7" cg="0.7" cb="0.7" />
+    <material name="dirt"         density="0" friction="0.9" restitution="0.4" cr="0.8" cg="0.6" cb="0.4" />
+  </materials>
+  <bodies>
+    <ground>
+      <bodymaterial name="dirt" />
+    </ground>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-2" y="1" z="0" />
+      <bodymaterial name="light gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-2" y="3" z="0" />
+      <bodymaterial name="dark gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-2" y="5" z="0" />
+      <bodymaterial name="light gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="-2" y="7" z="0" />
+      <bodymaterial name="dark gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="2" y="1" z="0" />
+      <bodymaterial name="light gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="2" y="3" z="0" />
+      <bodymaterial name="dark gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="2" y="5" z="0" />
+      <bodymaterial name="light gray" />
+    </box>
+    <box hx="1" hy="1" hz="1">
+      <pos x="2" y="7" z="0" />
+      <bodymaterial name="dark gray" />
+    </box>
+    <box hx="3" hy="1" hz="1">
+      <pos x="0" y="9" z="0" />
+      <bodymaterial name="light gray" />
+    </box>
+    <!--sphere r="2">
+      <pos x="0" y="12" z="0" />
+     <bodymaterial name="dark gray" />
+    </sphere-->
+  </bodies>
+</world>

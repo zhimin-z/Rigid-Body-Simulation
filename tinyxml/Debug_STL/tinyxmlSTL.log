@@ -1,0 +1,21 @@
+﻿Build started 3/19/2012 ♥汐 PM 1:23:02.
+     1>Project "C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\tinyxml\tinyxmlSTL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug_STL\tinyxmlSTL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\tinyxml\.\Debug_STL\tinyxmlSTL.lib) does not match the Library's OutputFile property value (C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\tinyxml\Debug_STL\tinyxmld_STL.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(tinyxmlSTL) does not match the Library's OutputFile property value (tinyxmld_STL). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         All outputs are up-to-date.
+         tinyxmlSTL.vcxproj -> C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\tinyxml\.\Debug_STL\tinyxmlSTL.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\Debug_STL\tinyxmlSTL.unsuccessfulbuild".
+         Touching ".\Debug_STL\tinyxmlSTL.lastbuildstate".
+     1>Done Building Project "C:\Users\Tiantian\Documents\TA\[12S]CIS563\Hw3\BaseCode\a3\a3\tinyxml\tinyxmlSTL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.01

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="World files">
+      <UniqueIdentifier>{a091040c-4e16-40a4-afcb-ef7f351425f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="arch.xml">
+      <Filter>World files</Filter>
+    </None>
+    <None Include="click.xml">
+      <Filter>World files</Filter>
+    </None>
+    <None Include="dominoes.xml">
+      <Filter>World files</Filter>
+    </None>
+    <None Include="incoming.xml">
+      <Filter>World files</Filter>
+    </None>
+    <None Include="justground.xml">
+      <Filter>World files</Filter>
+    </None>
+    <None Include="seesaw.xml">
+      <Filter>World files</Filter>
+    </None>
+    <None Include="short arch.xml">
+      <Filter>World files</Filter>
+    </None>
+    <None Include="smallstack.xml">
+      <Filter>World files</Filter>
+    </None>
+    <None Include="tallstack.xml">
+      <Filter>World files</Filter>
+    </None>
+    <None Include="medarch.xml" />
+  </ItemGroup>
+</Project>
